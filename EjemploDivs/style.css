@@ -1,0 +1,32 @@
+#global {
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+}
+
+#uno {
+  background-color: brown;
+  width: 50%;
+}
+
+#dos {
+  background-color: chartreuse;
+  width: 75%;
+}
+
+#tres {
+  width: 10%;
+  background-color: black;
+  color: aliceblue;
+}
+
+.grande {
+  font-size: 43px;
+}
+
+.rojo {
+  color: red;
+}
+.chico {
+  font-size: 12px;
+}

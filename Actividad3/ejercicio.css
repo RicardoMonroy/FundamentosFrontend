@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;900&family=Roboto:wght@100&display=swap");
 
 /* === IMPORTANTE ===================================================
    No modificar estos estilos, ya que son imprescindibles para
@@ -48,7 +48,7 @@ img {
 #contenido #principal,
 #contenido #secundario,
 #pie {
-  border: 2px solid #777;
+  /* border: 2px solid #777; */
   padding: 8px 0 8px 0;
 }
 
@@ -62,6 +62,14 @@ img {
   float: left;
   width: 20%;
 }
+#lateral #noticias {
+  border: 1px solid gray;
+}
+#lateral #publicidad {
+  margin-top: 15px;
+  border: 1px dotted #cc6600;
+  background-color: #ebccad;
+}
 #contenido {
   float: right;
   width: 78%;
@@ -73,6 +81,14 @@ img {
 #contenido #secundario {
   float: right;
   width: 20%;
+  border: 1px solid #cc6600;
+}
+#contenido #secundario h2 {
+  background-color: #cc6600;
+  margin-right: 15px;
+}
+#contenido #secundario p {
+  margin-right: 10px;
 }
 #pie {
   clear: both;

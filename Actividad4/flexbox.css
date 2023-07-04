@@ -1,0 +1,60 @@
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flexbox {
+  background-color: #ccc;
+  border: 1px solid black;
+  padding: 20px;
+  display: flex; /* Le determina el uso de Flexbox */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+
+  width: 80%;
+  /* height: 400px; */
+  margin: 0 auto;
+}
+
+.caja {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  background-color: blueviolet;
+  border: 1px solid black;
+  margin: 5px;
+
+  text-align: center; /* Centra texto respecto al ancho */
+  /* float: left; */
+}
+
+.c1 {
+  background-color: beige;
+  order: 2;
+  flex-grow: 0;
+  flex-basis: 30%;
+}
+.c2 {
+  background-color: burlywood;
+  order: 0;
+  flex-grow: 0;
+  flex-basis: 40%;
+}
+.c3 {
+  background-color: aqua;
+  order: 0;
+  flex-grow: 0;
+  flex-basis: 10%;
+}
+.c4 {
+  background-color: antiquewhite;
+  order: 0;
+  flex-grow: 0;
+  flex-basis: 10%;
+}

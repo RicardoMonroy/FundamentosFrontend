@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d8317f0c0.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        #features {
+            background-color: blueviolet;
+
+            padding: 100px 0 100px 0;
+            color: white;
+        }
+
+        .iconP {
+            margin-bottom: 50px;
+            font-size: 90px;
+        }
+
+        #clients {
+            background-color: #E1E1E1;
+            padding: 25px 0 25px 0;
+        }
+
+        #footer {
+            padding: 100px 0 100px 0;
+            background-color: #35373c;
+            color: white;
+        }
+
+        #footer ul li {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .foot {
+            border-bottom: 1px solid gainsboro;
+        }
+
+        #socialMedia {
+            padding: 100px 0 100px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar bg-dark border-bottom border-bottom-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Características</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Usuario
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Perfil</a></li>
+                            <li><a class="dropdown-item" href="#">Configuración</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Carrusel -->
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/1200/600" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Primer slide</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/600" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Segundo slide</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/600" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tercer slide</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Primer título -->
+    <div class="container">
+        <div class="row">
+            <h4 class="text-center">Esta es una maqueta bien bonita</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero id officiis
+                    quam
+                    cum
+                    dolorem perspiciatis
+                    eaque, eveniet at accusamus distinctio eius sapiente aut dolore. Veniam esse ab nobis! Quia.</p>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <!-- Video -->
+    <div class="container">
+        <div class="row">
+            <iframe src="https://player.vimeo.com/video/417747380?h=96b0e4881f" width="800" height="450" frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- Características -->
+    <div class="row text-center" id="features">
+        <div class="row justify-content-md-center ">
+            <div class="col col-md-3">
+                <div class="">
+                    <i class="fa-regular fa-clock iconP"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Clock</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="">
+                    <i class="fa-brands fa-tiktok iconP"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">TikTok</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="">
+                    <i class="fa-regular fa-tty iconP"></i> <i class="fa-regular fa-"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Clock</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Clients -->
+    <div class="row text-center justify-content-md-center" id="clients">
+        <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6">
+            <img src="./img/logo-1.svg" alt="">
+        </div>
+        <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6">
+            <img src="./img/logo-2.svg" alt="">
+        </div>
+        <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6">
+            <img src="./img/logo-3.svg" alt="">
+        </div>
+        <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6">
+            <img src="./img/logo-4.svg" alt="">
+        </div>
+    </div>
+
+    <!-- Más contenido -->
+
+    <!-- Footer -->
+    <div class="row" id="footer">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6 foot">
+                <h5>About</h5>
+                <ul>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                    <li>Item4</li>
+                    <li>Item5</li>
+                </ul>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6 foot">
+                <h5>Product</h5>
+                <ul>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                    <li>Item4</li>
+                    <li>Item5</li>
+                </ul>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6 foot">
+                <h5>Useful links</h5>
+                <ul>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                    <li>Item4</li>
+                    <li>Item5</li>
+                </ul>
+            </div>
+            <div class="col col-lg-2 col-md-3 col-sm-6 col-xs-6 foot">
+                <h5>Legal</h5>
+                <ul>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                    <li>Item4</li>
+                    <li>Item5</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="socialMedia">
+            <div class="row"></div>
+            <div class="row justify-content-md-center">Copyright Frontend Fundamentals 2023</div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

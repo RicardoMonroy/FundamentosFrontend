@@ -1,130 +1,113 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Audio, HI-RES">
-    <title>Actividad 2</title>
-    <!-- <style>
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        td,
-        th {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
-    </style> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Carrusel</title>
 </head>
 
 <body>
-    <h1>Título h1</h1>
-    <h2>Título h2</h2>
-    <h3>Título h3</h3>
-    <h4>Título h4</h4>
-    <h5>Título h5</h5>
-    <h6>Título h6</h6>
-    <hr>
-    <p>Esto es un <strong><em>párrafo</em></strong> hecho con la etiqueta "p".</p>
-    <hr>
-    <span>Esto es otro <em>párrafo</em> hecho con la etiqueta "span" y quier redirigir a
-        <em>
-            <a href="https://www.google.com.mx" target="_blank"><strong>Google</strong></a>
-        </em>
-    </span>
-    <p>Quiero crear un par de listas:</p>
-    <p>Listas desordenadas</p>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-    </ul>
-    <p>Lista ordenada</p>
-    <ol>
-        <li>Item 1</li>
-        <ol type="I">
-            <li>Una cosa</li>
-            <li>Otra cosa</li>
-        </ol>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ol>
-    <hr>
-    <h2>Ejercicio 3</h2>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Actividad 7</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./modal.html">Modal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formulario">Formulario</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <!-- Carrusel -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/img1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/img2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/img3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <div class="row" id="formulario">
 
-    <p>La biología es la ciencia que estudia el origen, la evolución y las caracteríticas de los seres vivos, asi
-        como sus procesos vitales, su comportamiento y su interacción con el medio ambiente.
-        La palabra "biología" se forma con las raices griegas Î²á½·Î¿Ï‚ (bios), que significa â€˜vidaâ€™, y
-        -Î»Î¿Î³á½·Î± (-logía), que significa â€˜cienciaâ€™ o â€˜estudioâ€™.
-        La biología se encarga de describir las caracteríticas de los seres vivos, explicar su comportamiento como
-        individuos o en comunidad.
-        Importancia de la biología</p>
-    <p>Uno de los objetivos fundamentales de la biología es establecer las leyes que rigen la vida de los organismos. Es
-        decir, abarca el estudio del origen de la vida y su evolución a lo largo de nuestra existencia.
-        De alli que sea necesario la realización de investigaciones y estudios sobre los seres vivos de manera
-        constante. Esto nos ha permitido conocer de mejor manera lo complejo que son los microorganismos y el
-        funcionamiento de nuestro cuerpo.
-        La investigación cientifica en biología es crucial para descubrir cómo combatir infecciones o prevenir
-        enfermedades. De esta manera, la biología contribuye a mejorar nuestra calidad de vida, asi como la de otros
-        animales y las plantas.
-        La biología también es una ciencia que aporta gran conocimiento a otras ramas de estudio cientifico.
-        Ramas de la biología</p>
-    <p>La biología es una ciencia vasta de la cual se desprenden múltiples ramas que profundizan en los más diversos
-        aspectos relacionados con los organismos vivos como, por ejemplo:</p>
-    <ul>
-        <p>
-            <li><strong>Anatomía:</strong></li> Estudia las estructuras internas y externas de los seres vivos.
-        </p>
-        <li><strong>Bacteriología</strong>: estudio de las bacterias.</li>
-        <li>Biomedicina: estudios sobre la salud de los seres humanos.</li>
-        <li>Bioquimica: estudio de los procesos quimicos.</li>
-        <li>Ecología: estudia lo organismos y sus relaciones, incluso, con el medioambiente.</li>
-        <li>Embriología: estudia el desarrollo de los embriones.</li>
-        <li>Entomología: estudio de los insectos.</li>
-        <li>Etología: estudio del comportamiento humano y animal.</li>
-        Biología evolutiva: estudio del cambio que sufren los seres vivos a través del tiempo.
-        Filogenia: estudio de cómo evolucionan los seres vivos.
-        Genética: estudio de los genes.
-        Histología: estudio de la composición y estructura de los tejidos.
-        Inmunología: estudios de los mecanismo del cuerpo para combatir toxinas, antigenos, entre otros.
-        Micología: estudio de los hongos.
-        Microbiología: estudio de los microorganismos.
-        Organografía: estudio de los órganos de los animales y plantas.
-        Paleontología: estudio de los organismos que vivieron en la Tierra en el pasado.
-        Taxonomía: estudio que permite clasificar a los seres vivos.
-        Virología: estudio de los virus.
-        Zoología: estudio de los animales.
-        Biología molecular
-    </ul>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
 
-    <table>
-        <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
-        </tr>
-        <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-        </tr>
-        <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-        </tr>
-    </table>
-    <br><br><br><br>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username"
+                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">@example.com</span>
+            </div>
 
+            <div class="mb-3">
+                <label for="basic-url" class="form-label">Your vanity URL</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                </div>
+                <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+            </div>
 
+            <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text">.00</span>
+            </div>
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+            </div>
+
+            <div class="input-group">
+                <span class="input-group-text">With textarea</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
